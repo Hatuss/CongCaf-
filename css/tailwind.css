@@ -312,6 +312,7 @@ button {
   background-image: none;
 }
 
+
 fieldset {
   margin: 0;
   padding: 0;
@@ -1152,4 +1153,27 @@ video {
 }
 
 @media (min-width: 1536px) {
+}
+
+
+.tm-menu-item img {
+  width: 160px;
+  height: 120px;
+  max-width: 350px;
+}
+
+#tm-nav a.tm-text-gold {
+  color: #ab2329;
+}
+
+#tm-nav a.tm-text-gold:hover {
+  color: #4e5c26;
+}
+
+#tm-nav #menu-toggle i.tm-text-gold {
+  color: #4e5c26; 
+}
+
+#tm-nav #menu-toggle:hover i.tm-text-gold {
+  color: #4e5c26; 
 }
